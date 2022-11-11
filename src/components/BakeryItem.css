@@ -1,0 +1,9 @@
+.BakeryItem {
+    display: flex;
+    /* padding: 10px; */
+}
+
+.BakeryItem > div > div {
+    display: flex;
+    flex-direction: row;
+}
