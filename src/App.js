@@ -41,7 +41,7 @@ function App() {
 
       <div>
         <h2>Cart</h2>
-        {cartItems.map((item, index) => (<p>(item.name)</p>))}
+        {cartItems.map((item, index) => (<p>{item.name}</p>))}
         <h3>Total: {calculateTotal()}</h3>
       </div>
     </div>

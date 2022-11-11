@@ -6,14 +6,14 @@ function BakeryItem(props) {
     return (
         <div className="BakeryItem" >
             <div>
-
+                
                 <h3>{props.item.name}</h3>
                 <p>{props.item.description}</p>
                 <p>Price: {props.item.price}</p>
 
                 <div>
                     <img src={props.item.image}></img>
-                    <button onClick={() => {props.addToCart(props.item.name)}}>Add to cart</button>
+                    <button onClick={() => {props.addToCart(props.item)}}>Add to cart</button>
                 </div>
 
             </div>
